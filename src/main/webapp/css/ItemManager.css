@@ -1,0 +1,65 @@
+.ItemManager{
+    position: relative;
+    overflow-x: hidden;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+.ItemManager-head{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #356fac;
+    color: #fff;
+    flex-shrink: 0;
+    line-height: 50px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.ItemManager-body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+.ItemManager-body-head{
+    position: relative;
+    width: 100%;
+    height: 25px;
+    border-top: 2px solid #c4c0b1;
+    border-bottom: 2px solid #c4c0b1;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.ItemManager-body-head-cell{
+    position: relative;
+    border-right: 2px solid #c4c0b1;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.ItemManager-body-head-cell:first-child{
+    border-left: 2px solid #c4c0b1;
+}
+
+.ItemManager-body-list{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+

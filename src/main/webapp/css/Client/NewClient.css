@@ -1,0 +1,38 @@
+.NewClient{
+    position: relative;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f2e7d6;
+}
+
+.NewClient-inputs{
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.NewClient-toolbar{
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.NewClient-toolbar-message{
+    position: relative;
+    width: 80%;
+    color: #f26c5d;
+}
+
+.NewClient-toolbar-buttons{
+    position: relative;
+    width: 20%;
+}

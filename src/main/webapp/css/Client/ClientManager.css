@@ -1,0 +1,26 @@
+.ClientManager{
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.ClientManager-head{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #356fac;
+    color: #fff;
+}
+
+.ClientManager-body{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #356fac;
+    color: #fff;
+}
+
+.ClientItem-a-wrapper{
+    text-decoration: none;
+    color: #000;
+}

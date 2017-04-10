@@ -1,0 +1,27 @@
+.Item-a-wrapper{
+    text-decoration: none;
+    color: #000;
+}
+
+.Item{
+    position: relative;
+    /*width: 40px;*/
+    height: auto;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f2e7d6;
+    transition: background-color linear 0.2s;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.Item:hover{
+    background-color: #c4c0b1;
+}
+
+.Item-cell{
+    position: relative;
+    margin-right: 10px;
+}

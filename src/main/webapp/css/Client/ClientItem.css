@@ -1,0 +1,13 @@
+.ClientItem-name{
+    width: 30%;
+    flex-shrink: 0;
+}
+
+.ClientItem-age{
+    width: 20%;
+    flex-shrink: 0;
+}
+
+.ClientItem-address{
+    width: 50%;
+}
